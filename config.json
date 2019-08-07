@@ -1,0 +1,49 @@
+{
+  "about this file": "This document defines configuration for this project that is not content or copy.",
+
+  "projectIdentifier": "20190802-stolen-bikes",
+
+  "data": {
+    "content": "./content.json",
+    "pkg": "./package.json"
+  },
+
+
+  "social": {
+    "image": "assets/images/strib/strib-logo-name-social-card.png"
+  },
+
+  "styles": {
+    "globals": [
+    ]
+  },
+  "js": {
+    "globals": [
+      "https://cdn.polyfill.io/v2/polyfill.min.js",
+      "https://static.startribune.com/assets/libs/pym.js/1.3.2/pym.v1.min.js",
+      "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js",
+      "https://api.tiles.mapbox.com/mapbox-gl-js/v0.51.0/mapbox-gl.js"
+    ]
+  },
+  "publishToken": "79c806feec75a16ef7ad3b217a032dc1",
+  "publish": {
+    "default": {
+      "bucket": "static.startribune.com",
+      "path": "news/projects-staging/all/20190802-stolen-bikes",
+      "url": "http://static.startribune.com/news/projects-staging/all/20190802-stolen-bikes/",
+      "cacheSeconds": 30
+    },
+    "testing": {
+      "bucket": "stribtest-bucket",
+      "path": "news/projects/20190802-stolen-bikes",
+      "url": "https://s3.amazonaws.com/stribtest-bucket/news/projects/20190802-stolen-bikes/",
+      "cacheSeconds": 30
+    },
+    "production": {
+      "bucket": "static.startribune.com",
+      "path": "news/projects/all/20190802-stolen-bikes",
+      "url": "http://static.startribune.com/news/projects/all/20190802-stolen-bikes/",
+      "cacheSeconds": 600
+    }
+  }
+}
