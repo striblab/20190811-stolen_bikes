@@ -143,7 +143,7 @@ map.on('load', function() {
     map.addLayer({
         "id": "incidents-layer-2",
         "type": "circle",
-        "source": "incidents",
+        "source": "incidents2",
         "paint": {
             "circle-radius": 2,
             "circle-color": '#3580A3',
