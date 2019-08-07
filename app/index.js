@@ -82,7 +82,7 @@ mapboxgl.accessToken = 'pk.eyJ1Ijoic2hhZG93ZmxhcmUiLCJhIjoiS3pwY1JTMCJ9.pTSXx_LF
 
 var dzoom = 10.5;
 var mzoom = 10.5;
-var center = [-93.265015, 44.977753];
+var center = [-93.266077, 44.970722];
 
 var map = new mapboxgl.Map({
     container: 'map', // container id
