@@ -27,7 +27,7 @@
     "@babel/runtime": "^7.0.0-beta.54",
     "@striblab/strib-icons": "^0.0.10",
     "@striblab/strib-styles": "^0.10.0",
-    "airtable": "^0.5.6",
+    "airtable": "^0.7.2",
     "archieml": "^0.4.2",
     "aws-sdk": "^2.211.0",
     "babel-core": "^7.0.0-bridge.0",
